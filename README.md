@@ -24,7 +24,8 @@ npm install
 ```
 Create database "giphy_search_favorites" and add tables "favorite" and "category" (see database.sql file).
 There are also some INSERT INTO sample queries for each table provided in the database.sql file that you can run to add starting data.
-
+```
+You will need to create a .env file in the project folder and enter an API_KEY (not provided)
 ```
 npm run server
 npm run client
